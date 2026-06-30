@@ -45,27 +45,27 @@ The project includes a Makefile that complies with standard 42 rules (-Wall -Wex
 
 To compile the mandatory library functions:
 
-  make
-  
+    make
+    
 To compile the library including the bonus linked list functions:
 
-  make bonus
+    make
 
 To remove all object files (.o):
 
-  make clean
+    make clean
 
 To remove all object files and the compiled binary library (libft.a):
 
-  make fclean
+    make fclean
 
 To force a complete re-compilation from scratch:
 
-  make re
+    make re
 
 Compile your program with the following flags:
 
-cc main.c -L. -lft -I. -o program
+    cc main.c -L. -lft -I. -o program
 
 # Resources
 I did my project with peer learning and used the Standard C Documentation: Unix Programmer's Manual sections ctype(3), string(3), stdlib(3).
