@@ -63,9 +63,5 @@ To force a complete re-compilation from scratch:
 
     make re
 
-Compile your program with the following flags:
-
-    cc main.c -L. -lft -I. -o program
-
 # Resources
 I did my project with peer learning and used the Standard C Documentation: Unix Programmer's Manual sections ctype(3), string(3), stdlib(3).
